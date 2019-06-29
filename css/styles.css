@@ -1,0 +1,147 @@
+body {
+    background-color: #F0ECEE;
+    font-family: 'Fira Sans', sans-serif;
+    height: 100vh;
+    margin: 15px;
+}
+
+nav {
+    padding-top: 10px;
+}
+
+.org-name {
+    font-weight: 400;
+    font-size: 17pt;
+    color: black;
+}
+
+.emphasis {
+    color: #FF4850;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1 {
+    flex: 3;
+    flex-wrap: nowrap;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 200%;
+    padding-top: 15px;
+    margin-block-start: unset;
+    margin-block-end: unset;
+}
+
+h3 {
+    font-weight: 300;
+    font-size: 17pt;
+    color: #88898B;
+    padding-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+    color: #88898B;
+    margin: auto;
+    padding-inline-start: unset;
+    font-size: 14pt;
+}
+
+li a:hover {
+    color: #FF4850;
+}
+
+.contact-us {
+    width: 100%;
+}
+
+.find-out-how {
+    width: 100%;
+}
+
+.contact-us {
+    padding: 10px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 5px;
+    background-color: #FF4850;
+    color: white;
+    border: none;
+    display: inline-block;
+    font-size: 13pt;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.find-out-how {
+    padding: 10px 35px;
+    border-radius: 5px;
+    background-color: #FF4850;
+    color: white;
+    border: none;
+    font-weight: 300;
+    font-size: 13pt;
+}
+
+@media all and (min-width: 768px) {
+    body {
+        background: url(../images/bulldog.jpg) no-repeat;
+        background-size: cover;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        font-weight: 300;
+        padding-left: 40px;
+        padding-right: 40px;
+        align-items: center;
+    }
+
+    .content {
+        display: flex;
+        padding-top: 100px;
+        padding-left: 40px;
+        padding-right: 25px;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 550px;
+        font-size: 19px;
+    }
+    
+    h2 {
+        font-size: 35px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        /* padding-right: 45px; */
+    }
+    li {
+        padding: 10px;
+    }
+    
+    .org-name {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    button:hover {
+        background-color: #CCC;
+    }
+    .find-out-how{
+        width: 250px;
+    }
+}
